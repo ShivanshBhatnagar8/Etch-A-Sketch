@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  font-family: "Dancing Script", cursive;
+  background-image: linear-gradient(45deg, #e64980 5%, #ff8787 95%);
+  min-height: 100%;
+}
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+button {
+  font-family: inherit;
+  border: none;
+  padding: 1.8rem 3rem;
+  font-size: 2.6rem;
+  color: #000;
+  display: inline-block;
+  box-shadow: 0px 10px 0px rgba(255, 254, 254, 0.811);
+  position: relative;
+  transition: all 0.1s;
+}
+
+button:active {
+  transform: translateY(0.4rem);
+  box-shadow: 0px 5px 0px rgba(240, 237, 237, 0.473);
+}
+.sixteen-grid-maker {
+  background-color: #cc5de8;
+}
+.thirthytwo-grid-maker {
+  background-color: #9775fa;
+}
+.fourtyeight-grid-maker {
+  background-color: rgb(255, 168, 168);
+}
+.sixtyfour-grid-maker {
+  background-color: #99e7b3;
+}
+
+.header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding: 2rem 2rem;
+}
+h1 {
+  font-size: 4.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.button-group {
+  display: flex;
+  justify-content: space-around;
+}
+.canva-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 2rem 2rem;
+}
+.canva {
+  width: 50rem;
+  height: 50rem;
+  background: #e64980;
+  box-shadow: 5px 5px 10px #b63a65, -5px -5px 10px #ff589b;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+/* .div {
+  width: calc(100% / 16);
+  height: calc(100% / 16);
+  border: 1px solid black;
+  background-color: white;
+  display: block;
+} */
+
+.lower-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.8rem;
+  padding: 2rem 2rem;
+}
+label {
+  font-size: 4rem;
+  font-weight: 500;
+}
+.color-picker {
+  width: 20rem;
+  height: 10rem;
+}
+.reset {
+  background-color: #22b8cf;
+}

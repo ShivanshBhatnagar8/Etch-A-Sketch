@@ -1,0 +1,48 @@
+@media (max-width: 56.25em) {
+  html {
+    font-size: 59%;
+  }
+}
+@media (max-width: 44em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 38em) {
+  html {
+    font-size: 45%;
+  }
+
+  label {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  .color-picker {
+    width: 15rem;
+    height: 5rem;
+  }
+  .reset {
+    background-color: #22b8cf;
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 28.125em) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 25em) {
+  html {
+    font-size: 35%;
+  }
+  button {
+    font-size: 1.4rem;
+    padding: 1.2rem 3rem;
+    box-shadow: 0px 5px 0px rgba(255, 254, 254, 0.811);
+  }
+}
+@media (max-width: 20em) {
+  html {
+    font-size: 30%;
+  }
+}
