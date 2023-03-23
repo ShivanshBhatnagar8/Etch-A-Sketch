@@ -74,10 +74,6 @@ btn32.addEventListener("click", function () {
 btn48.addEventListener("click", function () {
   removeGrid();
   creatingGrid(48);
-
-  //Setting color based on user input
-  changeColor(48);
-  resetGrid(48);
 });
 
 // FOR CREATING GRID CELLS (64/64)
